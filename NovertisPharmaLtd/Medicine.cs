@@ -9,9 +9,9 @@ namespace NovertisPharmaLtd
         public int BatchNumber{get; set;}
         private decimal unitPrice;
         private int quantity;
-        private int ManufacturedDate{get; set;}
-        private int ExpiryDate{get; set;}
-    public Medicine(string medicineCode, string medicineName, string manufacturerName, int batchNumber,decimal unitPrice, int quantity, int manufacturedDate, int expiryDate)
+        private string ManufacturedDate{get; set;}
+        private string ExpiryDate{get; set;}
+    public Medicine(string medicineCode, string medicineName, string manufacturerName, int batchNumber,decimal unitPrice, int quantity, string manufacturedDate, string expiryDate)
     {
         MedicineCode = medicineCode;
         MedicineName = medicineName;
@@ -43,6 +43,7 @@ namespace NovertisPharmaLtd
             }
         }
     }
+    
 
     
 

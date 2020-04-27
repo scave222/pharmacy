@@ -1,0 +1,13 @@
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\bin\Debug\netcoreapp3.1\NovertisPharmaLtd.exe
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\bin\Debug\netcoreapp3.1\NovertisPharmaLtd.deps.json
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\bin\Debug\netcoreapp3.1\NovertisPharmaLtd.runtimeconfig.json
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\bin\Debug\netcoreapp3.1\NovertisPharmaLtd.runtimeconfig.dev.json
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\bin\Debug\netcoreapp3.1\NovertisPharmaLtd.dll
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\bin\Debug\netcoreapp3.1\NovertisPharmaLtd.pdb
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\obj\Debug\netcoreapp3.1\NovertisPharmaLtd.csprojAssemblyReference.cache
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\obj\Debug\netcoreapp3.1\NovertisPharmaLtd.csproj.CoreCompileInputs.cache
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\obj\Debug\netcoreapp3.1\NovertisPharmaLtd.AssemblyInfoInputs.cache
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\obj\Debug\netcoreapp3.1\NovertisPharmaLtd.AssemblyInfo.cs
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\obj\Debug\netcoreapp3.1\NovertisPharmaLtd.dll
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\obj\Debug\netcoreapp3.1\NovertisPharmaLtd.pdb
+C:\codebits-academy\html5\C#\labtask11\NovertisPharmaLtd\obj\Debug\netcoreapp3.1\NovertisPharmaLtd.genruntimeconfig.cache
