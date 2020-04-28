@@ -13,7 +13,6 @@ namespace NovertisPharmaLtd
             Day = theDay;
             Month = theMonth;
             Year = theYear;
-            Console.WriteLine($"Date Constructor Called: {this}");
         }
 
         public int Month{
