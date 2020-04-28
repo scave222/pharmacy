@@ -13,7 +13,7 @@ namespace NovertisPharmaLtd
             Sales sales = new Sales("54de", "Lagos", 35, 4500, 3000);
             
 
-           Console.WriteLine(medicine.Print());
+            Console.WriteLine(medicine.Print());
             Console.WriteLine(sales.Display(5000,4000));
             Console.WriteLine(sales.Display());
             Console.WriteLine(medicine.Print(manufacDate,expDate));
