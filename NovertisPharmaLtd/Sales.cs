@@ -45,7 +45,7 @@ namespace NovertisPharmaLtd
 
        public string Display()
        {
-           return $"Medicine code {MedicineCode}\nRegion: {Region}\nPlanned sales: {PlannedSales}  Actual sales: {ActualSales}\nQuantity sold: {QuantitySold}\n===================== ";
+           return $"Medicine code: {MedicineCode}\nRegion: {Region}\nPlanned sales: {PlannedSales:C}\nActual sales: {ActualSales:C}\nQuantity sold: {QuantitySold}\n======================== ";
        }
 
        public string Display(decimal PlannedSales, decimal ActualSales)
@@ -53,11 +53,11 @@ namespace NovertisPharmaLtd
            if(PlannedSales > ActualSales)
            {
                decimal num = PlannedSales - ActualSales;
-               return $"We have excess sales of {num}";
+               return $"We have excess sales of {num:C}";
            } else if (ActualSales > PlannedSales)
            {
                decimal num1 = ActualSales - PlannedSales;
-               return $"We have less sales of {num1}";
+               return $"We have less sales of {num1:C}";
            }
            else return $"We met our exact target sales";
        } 
