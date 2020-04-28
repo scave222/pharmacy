@@ -28,7 +28,7 @@ namespace NovertisPharmaLtd
         get {return unitPrice;}
         set 
         {
-            if(unitPrice > 0){
+            if(value > 0){
                 unitPrice = value;
             }
         }
@@ -38,7 +38,7 @@ namespace NovertisPharmaLtd
         get {return quantity;}
         set 
         {
-            if(quantity > 0){
+            if(value > 0){
                 quantity = value;
             }
         }
@@ -49,7 +49,7 @@ namespace NovertisPharmaLtd
 
     public string Print()
     {
-    return $"Medicine code: {MedicineCode}\nMedicine name: { MedicineName}\nManufacturer name: {ManufacturerName}\nBatch number: {BatchNumber}\nUnit price {UnitPrice:C}\nQuantity: {Quantity}\nManufactured date: {ManufacturedDate}\nExpiry date: {ExpiryDate}";
+    return $"Medicine code: {MedicineCode}\nMedicine name: { MedicineName}\nManufacturer name: {ManufacturerName}\nBatch number: {BatchNumber}\nUnit price {UnitPrice:C}\nQuantity: {Quantity}\nManufactured date: {ManufacturedDate}\nExpiry date: {ExpiryDate}\n========================";
     }
 
     public int Print(int qty)

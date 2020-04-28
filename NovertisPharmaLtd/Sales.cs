@@ -19,7 +19,7 @@ namespace NovertisPharmaLtd
        public int QuantitySold{
            get {return quantitySold;}
            set {
-               if(quantitySold > 0){
+               if(value > 0){
                    quantitySold = value;
                }
            }
@@ -28,7 +28,7 @@ namespace NovertisPharmaLtd
        public decimal PlannedSales{
            get {return plannedSales;}
            set {
-               if(plannedSales > 0){
+               if(value > 0){
                    plannedSales = value;
                }
            }
@@ -37,7 +37,7 @@ namespace NovertisPharmaLtd
        public decimal ActualSales{
            get {return actualSales;}
            set {
-               if(actualSales > 0){
+               if(value > 0){
                    actualSales = value;
                }
            }
@@ -45,7 +45,7 @@ namespace NovertisPharmaLtd
 
        public string Display()
        {
-           return $"Medicine code {MedicineCode}\nRegion: {Region}\nPlanned sales: {PlannedSales}  Actual sales: {ActualSales}\nQuantity sold: {QuantitySold} ";
+           return $"Medicine code {MedicineCode}\nRegion: {Region}\nPlanned sales: {PlannedSales}  Actual sales: {ActualSales}\nQuantity sold: {QuantitySold}\n===================== ";
        }
 
        public string Display(decimal PlannedSales, decimal ActualSales)

@@ -6,11 +6,12 @@ namespace NovertisPharmaLtd
     {
         static void Main(string[] args)
         {
-            Medicine medicine = new Medicine("54re", "Atesunate", "Chemiron", 2314, 250, 45, "12/03/2018", "23/11/2019");
+            Medicine medicine = new Medicine("54re", "Atesunate", "Chemiron", 2314, 300, 45, "12/03/2018", "23/11/2019");
             Sales sales = new Sales("54de", "Lagos", 35, 4500, 3000);
 
            Console.WriteLine(medicine.Print());
             Console.WriteLine(sales.Display(4500,4000));
+            Console.WriteLine(sales.Display());
         }
     }
 }
